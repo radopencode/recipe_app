@@ -33,3 +33,25 @@ Content-Type: application/json
 #   "width": 640,
 #   "height": 480
 # }
+
+### RECIPIES INDEX
+GET http://localhost:3000/recipes.json
+Authorization: Bearer {{jwt}}
+
+### RECIPES SHOW
+GET http://localhost:3000/recipes/1.json
+Authorization: Bearer {{jwt}}
+
+
+### INGREDIENTS INDEX
+GET http://localhost:3000/ingredients.json
+Authorization: Bearer {{jwt}}
+
+### FAVORITES CREATE
+POST http://localhost:3000/favorites.json
+Content-Type: application/json
+
+{
+  "recipe_id": 1,
+  "user_id": current_user.id?,
+ }
