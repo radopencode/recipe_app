@@ -1,4 +1,4 @@
-@jwt=?
+@jwt=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHAiOjE2NTE5NTUwMjl9.gLggZ4llUnFAuKNTZg5a_Ix8Aa5C4ySdCPoJniPTCb4
 
 
 
@@ -8,7 +8,7 @@ POST http://localhost:3000/users.json
 Content-Type: application/json
 
 {
-  "email": "test@test.com",
+  "email": "test3@test.com",
   "password": "password",
   "password_confirmation": "password"
 }
@@ -19,7 +19,7 @@ POST http://localhost:3000/sessions.json
 Content-Type: application/json
 
 {
-  "email": "test@test.com",
+  "email": "test3@test.com",
   "password": "password"
 }
 
@@ -49,9 +49,9 @@ Authorization: Bearer {{jwt}}
 
 ### FAVORITES CREATE
 POST http://localhost:3000/favorites.json
+Authorization: Bearer {{jwt}}
 Content-Type: application/json
 
 {
-  "recipe_id": 1,
-  "user_id": current_user.id?,
+  "recipe_id": 1
  }

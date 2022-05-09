@@ -5,8 +5,8 @@ Rails.application.routes.draw do
   # root "articles#index"
   post "/users" => "users#create"
   post "/sessions" => "sessions#create"
-  get "/recipes" => "recipe#index"
-  get "/recipe/:id" => "recipe#show"
+  get "/recipes" => "recipes#index"
+  get "/recipes/:id" => "recipes#show"
   get "/ingredients" => "ingredients#index"
   post "/favorites" => "favorites#create"
 end
