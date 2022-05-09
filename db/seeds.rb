@@ -10,4 +10,4 @@
 
 # recipes = Recipe.create([{ name: "Quesadillas", instructions: "Heat pan, once hot, add tortilla, cook until brown on one side,  filll over once brown and add desired amount of cheese to one side.  Fold over and cook until brown on one side and filp until brown on other side to desired doneness." }, { name: "Salsa", instructions: "Wash all ingredents and rough chop all ingredients, aproximeatley 1/2 inch pieces.  Place all ingredients into blender and pulse until desired texture.  From chunky to smooth. " }])
 
-# ingredents = Ingredient.create([{ name: "cheese", recipe_id: 1 }, { name: "tortilla", recipe_id: 1 }, { name: "tomatoes", recipe_id: 2 }, { name: "onions", recipe_id: 2 }, { name: "garlic", recipe_id: 2 }])
+# ingredents = Ingredient.create([{ name: "cheese", }, { name: "tortilla"},  { name: "tomatoes" }, { name: "onions" }, { name: "garlic"}])

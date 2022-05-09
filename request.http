@@ -1,4 +1,4 @@
-@jwt=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHAiOjE2NTE5NTUwMjl9.gLggZ4llUnFAuKNTZg5a_Ix8Aa5C4ySdCPoJniPTCb4
+@jwt=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHAiOjE2NTIyMDQ1MTF9.7xFAuRQfdKmLF97LEIBpa00CZ_xAAkuJxrWrybSWsN8
 
 
 
@@ -54,4 +54,5 @@ Content-Type: application/json
 
 {
   "recipe_id": 1
+ 
  }
