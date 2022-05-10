@@ -1,4 +1,4 @@
-@jwt=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHAiOjE2NTIyMDQ1MTF9.7xFAuRQfdKmLF97LEIBpa00CZ_xAAkuJxrWrybSWsN8
+@jwt=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo0LCJleHAiOjE2NTIyODk4ODJ9.SMXvD65BZrTHeNUvbZWNpE7fnm9waPDwKErJRAsm-XE
 
 
 
@@ -8,7 +8,7 @@ POST http://localhost:3000/users.json
 Content-Type: application/json
 
 {
-  "email": "test3@test.com",
+  "email": "test4@test.com",
   "password": "password",
   "password_confirmation": "password"
 }
@@ -19,7 +19,7 @@ POST http://localhost:3000/sessions.json
 Content-Type: application/json
 
 {
-  "email": "test3@test.com",
+  "email": "test4@test.com",
   "password": "password"
 }
 
@@ -53,6 +53,6 @@ Authorization: Bearer {{jwt}}
 Content-Type: application/json
 
 {
-  "recipe_id": 1
+  "recipe_id": 2
  
  }
