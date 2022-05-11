@@ -1,0 +1,7 @@
+{
+  id: @recipe.id,
+  name: @recipe.name,
+  instructions: @recipe.instructions,
+  ingredients: @recipe.ingredients
+ 
+}
