@@ -8,5 +8,6 @@ Rails.application.routes.draw do
   get "/recipes" => "recipes#index"
   get "/recipes/:id" => "recipes#show"
   get "/ingredients" => "ingredients#index"
+  get "/favorites" => "favorites#index"
   post "/favorites" => "favorites#create"
 end

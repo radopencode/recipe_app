@@ -1,8 +1,13 @@
 class FavoritesController < ApplicationController
+  def index
+    favorite = Favorite.all
+    render json: favorite.as_json
+  end
+
   def create
     favorites = Favorite.new(
       user_id: current_user.id,
-      recipe_id: params[:recipe_id]
+      recipe_id: params[:recipe_id],
     )
 
     if favorites.save

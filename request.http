@@ -1,4 +1,4 @@
-@jwt=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo0LCJleHAiOjE2NTIyODk4ODJ9.SMXvD65BZrTHeNUvbZWNpE7fnm9waPDwKErJRAsm-XE
+@jwt=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHAiOjE2NTI1NTQ0MTJ9.WkIdcp0ptaanquqDBAlyeQyZZP3RBq-CIDmxQ4scRrU
 
 
 
@@ -19,20 +19,11 @@ POST http://localhost:3000/sessions.json
 Content-Type: application/json
 
 {
-  "email": "test4@test.com",
+  "email": "test3@test.com",
   "password": "password"
 }
 
-# ### Photos create
-# POST http://localhost:3000/photos.json
-# Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjozLCJleHAiOjE2Mjk5OTI4NjR9.G2ExsrDYn3oE0vJkvm4T6Po2GbNpH5cqTEaVPVuK_MA
-# Content-Type: application/json
 
-# {
-#   "name": "Test name",
-#   "width": 640,
-#   "height": 480
-# }
 
 ### RECIPIES INDEX
 GET http://localhost:3000/recipes.json
@@ -55,4 +46,8 @@ Content-Type: application/json
 {
   "recipe_id": 2
  
- }
+}
+
+### FAVORITES INDEX
+GET http://localhost:3000/favorites.json
+Authorization: Bearer {{jwt}}
