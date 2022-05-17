@@ -1,7 +1,9 @@
 class FavoritesController < ApplicationController
+  before_action :authenticate_user, except: [:index]
+
   def index
-    favorite = Favorite.all
-    render json: favorite.as_json
+    favorites = current_user.recipes
+    render json: favorites.as_json
   end
 
   def create

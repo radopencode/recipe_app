@@ -1,4 +1,4 @@
-@jwt=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHAiOjE2NTI1NTQ0MTJ9.WkIdcp0ptaanquqDBAlyeQyZZP3RBq-CIDmxQ4scRrU
+@jwt=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHAiOjE2NTI4OTIyMjZ9.TUmvfWWhjt98lay5b_4HacPxQMKvqrI9_w1lHoX88E8
 
 
 
@@ -30,7 +30,7 @@ GET http://localhost:3000/recipes.json
 Authorization: Bearer {{jwt}}
 
 ### RECIPES SHOW
-GET http://localhost:3000/recipes/1.json
+GET http://localhost:3000/recipes/3.json
 Authorization: Bearer {{jwt}}
 
 
@@ -44,7 +44,7 @@ Authorization: Bearer {{jwt}}
 Content-Type: application/json
 
 {
-  "recipe_id": 2
+  "recipe_id": 3
  
 }
 
