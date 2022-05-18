@@ -1,4 +1,4 @@
-@jwt=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHAiOjE2NTI4OTIyMjZ9.TUmvfWWhjt98lay5b_4HacPxQMKvqrI9_w1lHoX88E8
+@jwt=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4LCJleHAiOjE2NTI5ODY2NzB9.zqEQAEtYnWsoD6A73a5hL9TYH_I9Qg-w2uaaOdoXqTg
 
 
 
@@ -8,7 +8,7 @@ POST http://localhost:3000/users.json
 Content-Type: application/json
 
 {
-  "email": "test4@test.com",
+  "email": "cheddar@test.com",
   "password": "password",
   "password_confirmation": "password"
 }
@@ -19,7 +19,7 @@ POST http://localhost:3000/sessions.json
 Content-Type: application/json
 
 {
-  "email": "test3@test.com",
+  "email": "cheddar@test.com",
   "password": "password"
 }
 

@@ -1,15 +1,20 @@
 User.create!([
-  { email: "chef@test.com", password: "password" },
-  { email: "test@test.com", password: "password" },
-  { email: "test3@test.com", password: "password" },
-  { email: "test4@test.com", password: "password" },
+  { email: "chef@test.com", password_digest: "$2a$12$pQCsCRFjXJQsVDz8t1iER.3SqOk.cTCaww14VeFQ8YpWmHNE5qM82" },
+  { email: "test@test.com", password_digest: "$2a$12$8oVs6.cvD6S//ikTA6MR6OAxG0IOozMNPi7/rfMLQQSt6sb374Yzu" },
+  { email: "test3@test.com", password_digest: "$2a$12$1idZAlv2/PpToRF3np4FSOm5V55NenwodDMzR7ay3/7E.DnPS60sG" },
+  { email: "test4@test.com", password_digest: "$2a$12$noddNW4a5ftXPQ/ewMtydOPEASozAcB4tEqUwS4GUpYhRFM.PeZa." },
+  { email: "masterchef@test.com", password_digest: "$2a$12$Kfjk06bvpcLAeisSzVJ8pufCMwz/JS0s2a1cf/l5dJBxWzBY5FQr6" },
+  { email: "ironchef@test.com", password_digest: "$2a$12$PnAt/MX/lZEd0U/nQwagbeL1z/Ql5shVT/UPoSd2E5EMgBLtBW6M." },
+  { email: "bestchef@test.com", password_digest: "$2a$12$zzNZoStokWLZ7moVbyNhxeXixFtHlqgxevNqgUwBE15yNskVfYHBe" },
 ])
 
 Recipe.create!([
   { name: "Quesadillas", instructions: "Heat pan, once hot, add tortilla, cook until brown on one side,  filll over once brown and add desired amount of cheese to one side.  Fold over and cook until brown on one side and filp until brown on other side to desired doneness." },
   { name: "Salsa", instructions: "Wash all ingredents and rough chop all ingredients, aproximeatley 1/2 inch pieces.  Place all ingredients into blender and pulse until desired texture.  From chunky to smooth. " },
   { name: "Beef Enchiladas with Spicy Red Sauce", instructions: "To make the spicy red sauce, heat the olive oil in a large saucepan over medium heat, and cook and stir 1/2 cup of onion until the onion is softened, 3 to 4 minutes. Stir in 4 teaspoons of garlic, and cook and stir until fragrant, another 3 to 5 minutes, watching carefully to avoid burning the garlic. Stir in the oregano, 3 1/2 teaspoons of chili powder, basil, salt and black pepper, 1 teaspoon of cumin, the dried cilantro, salsa, tomato sauce, tomato paste, and chicken broth until the sauce is smoothly combined.\n\n  Step 2\n  Bring the sauce to a simmer, reduce heat to low, and simmer about 30 minutes, stirring often, until the flavors have blended and the sauce has thickened slightly.\n  \n  Step 3\n  While spicy red sauce is simmering, cook and stir the ground beef in a large skillet over medium-high heat until the meat is evenly browned. Break the meat up into crumbles as it cooks, and drain off excess grease. Mix in 3/4 cup of onion, 1 tablespoon of garlic, 1/2 teaspoon of chili powder, and 1/2 teaspoon of cumin into the meat, and cook and stir until the onions are softened and the meat mixture is fragrant with spices, 5 to 10 more minutes. Stir in the enchilada sauce and beef broth; simmer for 5 more minutes. Stir in 1/2 cup of Mexican cheese blend, and allow the cheese to melt into the meat sauce. Reduce heat to low, and simmer the meat sauce for 30 more minutes to thicken.\n  \n  Step 4\n  Preheat oven to 350 degrees F (175 degrees C). Spray a 9x13-inch baking dish with cooking spray.\n  \n  Step 5\n  Spray both sides of each tortilla with cooking spray, stack up the tortillas with a piece of aluminum foil between each tortilla, and wrap the stack with aluminum foil. Place the tortillas into the preheated oven to warm, about 10 minutes.\n  \n  Step 6\n  Spread about 1/2 cup of the spicy red sauce over the bottom of the prepared baking dish. Fill each tortilla with the meat sauce, reserving about 1/2 cup of the meat sauce; roll the enchiladas, and arrange in the baking dish, seam sides down. Pour the remaining spicy red sauce over the enchiladas. Sprinkle with the reserved 1/2 cup of meat mixture, and top with remaining 2 cups of Mexican cheese blend.\n  \n  Step 7\n  Bake until the cheese topping is golden brown and the sauce is bubbly, about 30 minutes. Remove from oven and sprinkle with cilantro to serve." },
-  { name: "Salsa", instructions: "Wash all ingredents and rough chop all ingredients, aproximeatley 1/2 inch pieces.  Place all ingredients into blender and pulse until desired texture.  From chunky to smooth. " },
+  { name: "Chiles Rellenos", instructions: "To prepare the chiles: \n    Position a rack on the upper most shelf of the broiler element and preheat. Put the chiles on a foil-lined broiler pan and broil, turning occasionally with tongs, until the skin is charred, about 10 minutes. Transfer the chiles to a bowl, cover, and cool for 10 minutes. \n    Carefully rub the charred skin off the chiles. Using a small knife, make a lengthwise slit along the side of each chile to form a pocket. Carefully cut out and discard the seeds. \n    Cut the cheese into 6 (1/4-inch-thick) slabs, about 3/4 the length of each chile (your chiles probably vary in length, so tailor the cheese to the chiles). Slip the cheese pieces into the pocket of each chile so they're 2/3 full. (If the cheese protrudes from the chiles, just cut a little off.) Sew each chile shut with a wooden skewer or long toothpick. (The skewers should be longer than the chiles, so they can be easily pulled out after frying.) \n    Whisk the flour, baking powder, cumin, and salt in a large bowl. Stir in the beer to a make a smooth batter. \n    In a large, wide, heavy-bottomed pot, pour in the oil to a depth of about 3 inches. Heat over medium heat until a deep-fry thermometer inserted in the oil registers 365 degrees F. \n    Put the flour for dredging on a plate. Working in 2 batches, dredge the chiles in the flour (the dampness of the chiles creates a light paste with the flour that seals over any tears), dip in the batter, and carefully add to the oil. Fry, turning the chiles once, until golden brown and crispy, about 4 minutes per batch. Using tongs, transfer the chiles rellenos to a dry paper towel-lined baking sheet to drain. Sprinkle with salt, to taste. Gently pull out and discard the skewers. \n    Heat the sauce. Spoon some of the sauce on a plate and set 1 chile relleno on top. Repeat with the remaining sauce and chiles. Serve. \n    Mexican Tomato Sauce:\n    In a blender, combine all the ingredients and puree until smooth. \n    Transfer the tomato puree to a medium saucepan and bring to a boil. Lower the heat and simmer until slightly thick, about 10 minutes. \n    Yield: about 3 cups" },
+  { name: "Machaca", instructions: "For the marinade: Combine the Maggi sauce, lime juice, 2 tablespoons water, garlic and serranos in a medium-size bowl, season with salt and pepper. While whisking constantly, slowly add the olive oil, Put the brisket pieces into a large food-safe plastic bag and pour the marinade over it, turning the meat to coat. Seal and refrigerate for at least 8 hours or preferably overnight.\n    Allow the meat to come to room temperature. Drain the meat and discard the marinade.\n    For the brisket: Pour the oil into the bottom of a slow cooker. Add the onions, broth, peppers, oregano, garlic, chiles, tomatoes and some salt and pepper. Mix well, and then nestle the meat into the liquid in the bottom of the slow cooker. Cook the brisket on medium-high heat until the meat is tender and shreds easily with a fork, about 5 hours.\n    Using a slotted spoon, transfer the meat to a cutting board and let stand until cool enough to handle, about 15 minutes. Shred the meat into 2-inch-long pieces. Return the shredded meat to the slow cooker, stir to combine, and let stand until the meat is hot, about 10 minutes. Taste and season with salt and pepper, if necessary.\n    The warm braised meat can be used to fill burritos, tacos, tostadas or sandwiches. Leftover meat can be stored in an airtight container for up to 3 days or frozen in plastic freezer bags or containers for up to 1 month.\n    For the tostadas: Spread about 1/3 cup of the warm meat over each of the crisp shells. Top each tostada with about 2 tablespoons lettuce, some diced avocado and 2 tablespoons salsa. Drizzle about 1 tablespoon crema over the top and garnish with crumbled queso fresco.\n    Serve with lime wedges on the side for squeezing over the top." },
+  { name: "Guacamole", instructions: "Cut avocados in half around the pit. Separate the halves. Pop out pit with spoon, then scoop flesh of avocados into a bowl. Squeeze the juice of a lemon over the avocados. Squeeze the juice with the lemon halves facing cut-side up, allowing the juice to spill down over the sides of the lemon into the bowl. This method keeps the seeds in the lemon and out of the guacamole. Add garlic, jalapeno, tomato, onion and salt to the bowl. Mash and mix the ingredients into a chunky dip using a fork" },
 ])
 
 Ingredient.create!([
@@ -27,7 +32,23 @@ Ingredient.create!([
   { name: "cumin" },
   { name: "cilantro" },
   { name: "enchilada sauce" },
+  { name: "poblano chiles" },
+  { name: "Oaxacan-style string cheese" },
+  { name: "all-purpose flour" },
+  { name: "baking powder" },
+  { name: "Vegetable oil" },
+  { name: "Mexican Tomato Sauce" },
+  { name: "serrano chile" },
+  { name: "ground cinnamon" },
+  { name: "red bell pepper" },
+  { name: " fresh lime juice" },
+  { name: "beef brisket" },
+  { name: "canned tomatoes" },
+  { name: "Hass avocados" },
+  { name: " jalapeno" },
+  { name: "plum tomato" },
 ])
+
 RecipeIngredient.create!([
   { recipe_id: 1, ingredient_id: 1, quantity: 4 },
   { recipe_id: 1, ingredient_id: 2, quantity: 3 },
@@ -42,9 +63,37 @@ RecipeIngredient.create!([
   { recipe_id: 3, ingredient_id: 12, quantity: 3 },
   { recipe_id: 3, ingredient_id: 13, quantity: 2 },
   { recipe_id: 3, ingredient_id: 14, quantity: 1 },
+  { recipe_id: 4, ingredient_id: 15, quantity: 6 },
+  { recipe_id: 4, ingredient_id: 16, quantity: 1 },
+  { recipe_id: 4, ingredient_id: 17, quantity: 1 },
+  { recipe_id: 4, ingredient_id: 18, quantity: 4 },
+  { recipe_id: 4, ingredient_id: 19, quantity: 1 },
+  { recipe_id: 4, ingredient_id: 20, quantity: 1 },
+  { recipe_id: 4, ingredient_id: 21, quantity: 1 },
+  { recipe_id: 4, ingredient_id: 22, quantity: 1 },
+  { recipe_id: 4, ingredient_id: 5, quantity: 1 },
+  { recipe_id: 4, ingredient_id: 12, quantity: 1 },
+  { recipe_id: 4, ingredient_id: 4, quantity: 1 },
+  { recipe_id: 5, ingredient_id: 22, quantity: 1 },
+  { recipe_id: 5, ingredient_id: 5, quantity: 1 },
+  { recipe_id: 5, ingredient_id: 21, quantity: 1 },
+  { recipe_id: 5, ingredient_id: 6, quantity: 4 },
+  { recipe_id: 5, ingredient_id: 23, quantity: 1 },
+  { recipe_id: 5, ingredient_id: 24, quantity: 1 },
+  { recipe_id: 5, ingredient_id: 7, quantity: 1 },
+  { recipe_id: 5, ingredient_id: 26, quantity: 1 },
+  { recipe_id: 5, ingredient_id: 4, quantity: 1 },
+  { recipe_id: 5, ingredient_id: 11, quantity: 1 },
+  { recipe_id: 6, ingredient_id: 27, quantity: 1 },
+  { recipe_id: 6, ingredient_id: 24, quantity: 1 },
+  { recipe_id: 6, ingredient_id: 27, quantity: 1 },
+  { recipe_id: 6, ingredient_id: 29, quantity: 1 },
+  { recipe_id: 6, ingredient_id: 4, quantity: 1 },
+  { recipe_id: 6, ingredient_id: 10, quantity: 1 },
 ])
+
 Favorite.create!([
   { recipe_id: 1, user_id: 3 },
   { recipe_id: 2, user_id: 3 },
-  { recipe_id: 4, user_id: 3 },
+
 ])
